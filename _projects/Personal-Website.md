@@ -1,5 +1,5 @@
 ---
 layout: project
-title: "Personal Website"
+title: Personal Website
 ---
 Test Project listing
