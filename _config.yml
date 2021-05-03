@@ -1,8 +1,5 @@
 name: Cameron Trumpy
 markdown: kramdown
-sass:
-    sass_dir: _sass
-    style: compressed
 permalink: /blog/:year/:month/:day/:title
 collections:
   projects:
