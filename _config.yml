@@ -1,7 +1,17 @@
 name: Cameron Trumpy
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
+
 collections:
   projects:
     output: true
     permalink: /showcase/:title
+
+
+defaults:
+  -
+    scope:
+      path: "showcase"
+    values:
+      featured_image: "/photos/default.png"
+      source_code: "https://github.com/CameronTrumpy"
