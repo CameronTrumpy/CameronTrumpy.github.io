@@ -5,7 +5,16 @@ layout: default
 
 <div class="project">
   <img src= "{{page.featured_image}}" width="200" height= "200">
+
+  {% if page.additional_link %}
+  <a href={{page.additional_link}}>View Project</a>
+  {% endif %}
+  
+  {% if page.source_code %}
   <a href={{page.source_code}}>View Source Code</a>
+  {% endif %}
+  
   {{ content }}
+  
   <a href="/showcase">Back to Projects</a>
 </div>
