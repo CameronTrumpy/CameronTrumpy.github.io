@@ -6,6 +6,7 @@ nav ul, footer ul {
     font-family:'Courier', 'Arial', 'Sans-Serif';
     padding: 0px;
     list-style: none;
+    text-align: center;
     font-weight: bold;
 }
 nav ul li, footer ul li {
@@ -13,11 +14,14 @@ nav ul li, footer ul li {
     margin-right: 20px;
 }
 a {
+    padding: 5px 5px;
     text-decoration: none;
     color: #999;
 }
 a:hover {
     text-decoration: underline;
+    background-color: #000;
+    border-radius: 5px;
 }
 h1 {
     font-size: 3em;
