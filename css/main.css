@@ -6,13 +6,21 @@ nav ul, footer ul {
     font-family:'Courier', 'Arial', 'Sans-Serif';
     padding: 0px;
     list-style: none;
+    text-align: center;
     font-weight: bold;
 }
 nav ul li, footer ul li {
-    display: inline;
+    display: inline-block;
     margin-right: 20px;
 }
+
+nav ul a:hover, footer ul a:hover {
+    text-decoration: underline;
+    background-color: #000;
+    border-radius: 5px;
+}
 a {
+    padding: 5px 5px;
     text-decoration: none;
     color: #999;
 }
@@ -40,4 +48,14 @@ ul.posts {
 
 ul.posts li {
     list-style: none;
+    display: inline-flex;
+}
+ul.projects li {
+    width: 225px;
+        min-height: 250px;
+        border: 1px solid #000;
+        display: inline-block;
+        vertical-align: top;
+        text-align:center;
+        margin: 10px 10px 10px;
 }
