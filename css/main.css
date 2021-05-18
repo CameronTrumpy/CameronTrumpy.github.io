@@ -13,6 +13,12 @@ nav ul li, footer ul li {
     display: inline-block;
     margin-right: 20px;
 }
+
+nav ul a:hover, footer ul a:hover {
+    text-decoration: underline;
+    background-color: #000;
+    border-radius: 5px;
+}
 a {
     padding: 5px 5px;
     text-decoration: none;
@@ -20,8 +26,6 @@ a {
 }
 a:hover {
     text-decoration: underline;
-    background-color: #000;
-    border-radius: 5px;
 }
 h1 {
     font-size: 3em;
