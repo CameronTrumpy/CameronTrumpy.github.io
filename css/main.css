@@ -48,4 +48,14 @@ ul.posts {
 
 ul.posts li {
     list-style: none;
+    display: inline-flex;
+}
+ul.projects li {
+    width: 225px;
+        min-height: 250px;
+        border: 1px solid #000;
+        display: inline-block;
+        vertical-align: top;
+        text-align:center;
+        margin: 10px 10px 10px;
 }
