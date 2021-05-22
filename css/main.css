@@ -27,6 +27,7 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
 h1 {
     font-size: 3em;
     font-family:'Courier', 'Arial', 'Sans-Serif';
@@ -48,14 +49,15 @@ ul.posts {
 
 ul.posts li {
     list-style: none;
-    display: inline-flex;
 }
 ul.projects li {
     width: 225px;
         min-height: 250px;
-        border: 1px solid #000;
         display: inline-block;
         vertical-align: top;
-        text-align:center;
-        margin: 10px 10px 10px;
-}
+        text-align:center;    
+    border: 1px solid #000;
+    border-radius: 10px;
+    margin: 10px 10px 10px;
+    padding: 10px 0px 0px;
+    }
