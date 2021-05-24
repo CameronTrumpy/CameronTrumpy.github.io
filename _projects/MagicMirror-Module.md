@@ -2,7 +2,7 @@
 layout: project
 title: Magic Mirror + Modules
 featured_image: "/photos/MM2.png"
-image_gallery: [image1.png, image2.png];
+image_gallery: [image1.png, image2.png]
 source_code: "https://github.com/CameronTrumpy/MMM-COVID"
 ---
 In 2019, I designed and built my own Magic Mirror, which runs on a Raspberry Pi, and makes use of the open source [MagicMirror²](https://magicmirror.builders) platform. After I had built and set up the project, I got caught up with other projects and responsibilities, and never took the project further. 

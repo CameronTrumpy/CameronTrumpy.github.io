@@ -1,8 +1,8 @@
 ---
 layout: project
 title: Boggle Solver
-featured_image: "./photos/GitHub-Logo.png"
-image_gallery: [./photos/image1.png, ./photos/image2.png];
+featured_image: "/_projects/Boggle-Solver/photos/GitHub-Logo.png"
+image_gallery: [./photos/image1.png, ./photos/image2.png]
 source_code: "https://github.com/CameronTrumpy/BoggleSolver"
 ---
 In 2019, I wrote a Java program which works alongside an emulated android device. This program quickly and accurately searches all word combinations possible given a match's auto generated boggle board, and then enters all words in at much faster than human speeds. It outperformed human opponents by 10000% and was able to easily win in game tournaments against high skill opponents.
