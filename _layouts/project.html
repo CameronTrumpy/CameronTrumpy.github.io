@@ -7,11 +7,11 @@ layout: default
   <img src= "{{page.featured_image}}" width="200" height= "200">
 
   {% if page.additional_link %}
-  <a href={{page.additional_link}}>View Project</a>
+  <p><a href={{page.additional_link}}>View Project</a></p>
   {% endif %}
   
   {% if page.source_code %}
-  <a href={{page.source_code}}>View Source Code</a>
+  <p><a href={{page.source_code}}>View Source Code</a></p>
   {% endif %}
   
   {{ content }}
