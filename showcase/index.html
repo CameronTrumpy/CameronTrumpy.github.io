@@ -6,6 +6,6 @@ title: My Projects
 <ul class="projects">
 
 {% for project in site.projects %}
-	    <li><a href="{{ project.url }}" title="{{ project.title }}"><img src= "{{project.featured_image}}" width="200" height= "200">{{ project.title }}</a></li>
+	    <li><a href="{{ project.url }}" title="{{ project.title }}"><img src= "{{project.featured_image}}" alt={{project.summary}} width="200" height= "200">{{ project.title }}</a></li>
 	  {% endfor %}
 </ul>

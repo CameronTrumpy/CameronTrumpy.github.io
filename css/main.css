@@ -1,99 +1,121 @@
 html{
-    animation: fall 1s linear;
+   animation: fall 1s linear;
 }
 body {
-   margin: 60px auto;
-   width: 70%;
-   background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/gridme.png");
-   background-repeat: repeat;
-   animation: ripple 100s linear infinite;
+  margin: 60px auto;
+  width: 70%;
+  background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/gridme.png");
+  background-repeat: repeat;
+  animation: ripple 100s linear infinite;
 
 }
 @keyframes ripple{
- 0%{
-   background-position: 0% 0%;
- }
-  100%{
-   background-position: 100% 100%;
- }
+0%{
+  background-position: 0% 0%;
+}
+ 100%{
+  background-position: 100% 100%;
+}
 }
 
 @keyframes fall{
- 0%{
-   opacity: 0;
- }
-  100%{
-   opacity: 1;
- }
+0%{
+  opacity: 0;
 }
+ 100%{
+  opacity: 1;
+}
+}
+
+@keyframes fade-in-out{
+0%{
+  opacity: 1;
+}
+25%{
+  opacity: .6;
+}
+ 100%{
+  opacity: 0;
+}
+}
+
 
 
 @keyframes expand{
-    0%{
-      font-transform: scale(1);
-    }
-     100%{
-     font-transform: scale(1.2);
-    }
-  }
-  
+   0%{
+     font-transform: scale(1);
+   }
+    100%{
+    font-transform: scale(1.2);
+   }
+ }
+ 
 
 nav ul, footer ul {
-   font-family:'Courier', 'Arial', 'Sans-Serif';
-   padding: 0px;
-   list-style: none;
-   text-align: center;
-   font-weight: bold;
+  font-family:'Courier', 'Arial', 'Sans-Serif';
+  padding: 0px;
+  list-style: none;
+  text-align: center;
+  font-weight: bold;
 }
 nav ul li, footer ul li {
-   display: inline-block;
-   margin-right: 20px;
+  display: inline-block;
+  margin-right: 20px;
 }
 
 nav ul a:hover, footer ul a:hover {
-   text-decoration: underline;
-   background-color: #000;
-   border-radius: 5px;
+  text-decoration: underline;
+  background-color: #9fb5ec;
+  border-radius: 5px;
 }
 a {
-   padding: 5px 5px;
-   text-decoration: none;
-   color: #999;
+  padding: 5px 5px;
+  text-decoration: none;
+  color: #636363;
 }
 a:hover {
-   text-decoration: underline;
+  text-decoration: underline;
 }
 
 h1 {
-   font-size: 3em;
-   font-family:'Courier', 'Arial', 'Sans-Serif';
+  font-size: 3em;
+  font-family:'Courier', 'Arial', 'Sans-Serif';
 }
 p {
-   font-size: 1.5em;
-   line-height: 1.4em;
-   color: #333;
+  font-size: 1.5em;
+  line-height: 1.4em;
+  color: #333;
 }
 footer {
-   border-top: 1px solid #d5d5d5;
-   font-size: .8em;
+  border-top: 1px solid #545454;
+  font-size: .8em;
 }
 
 ul.posts { 
-   margin: 20px auto 40px; 
-   font-size: 1.5em;
+  margin: 20px auto 40px; 
+  font-size: 1.5em;
 }
 
 ul.posts li {
-   list-style: none;
+  list-style: none;
+}
+ul.projects {
+ text-align: center;
 }
 ul.projects li {
-   width: 225px;
-       min-height: 250px;
-       display: inline-block;
-       vertical-align: top;
-       text-align:center;    
-   border: 1px solid #000;
-   border-radius: 10px;
-   margin: 10px 10px 10px;
-   padding: 10px 0px 0px;
-   }
+  width: 225px;
+      min-height: 250px;
+      display: inline-grid;
+      vertical-align: top;
+      text-align:center;    
+  border: 1px solid #000;
+  border-radius: 10px;
+  margin: 10px 10px 10px;
+  padding: 10px 0px 0px;
+
+  }
+
+ul.projects li:hover img{
+  animation: fade-in-out .6s;
+  opacity:0;
+  }
