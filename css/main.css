@@ -4,7 +4,7 @@ html{
 body {
  margin: 60px auto;
  width: 70%;
- background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/gridme.png");
+ background-image: "/photos/Background/tile.png";
  background-repeat: repeat;
  animation: ripple 100s linear infinite;
 
@@ -112,7 +112,8 @@ ul.posts li {
  list-style: none;
 }
 ul.projects {
-text-align: center;
+ text-align: center;
+ padding-inline-start: 0px;
 }
 ul.projects li {
  width: 225px;
@@ -146,6 +147,15 @@ ul.projects li {
  opacity:.1;
 }
 
+.imgContainer p{
+    display:none;
+}
+
+.imgContainer:hover p{
+    .imgContainer.p opacity: 1;
+    animation: fade-in .6s;
+    display:contents
+}
 
 ul.projects li:hover img{
  animation: fade-out .6s;

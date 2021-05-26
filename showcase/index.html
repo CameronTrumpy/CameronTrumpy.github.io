@@ -6,9 +6,8 @@ title: My Projects
 <ul class="projects">
 	{% for project in site.projects %}
 		<li>
-			<div class="imgContainer" style="background-image: url('{{project.featured_image}}'); background-size: 200px 200px; height: 200px; width: 200px">
-				{{project.summary}}
-			</div>
+			<div class="imgContainer" style="background-image: url('{{project.featured_image}}'); background-size: 200px 200px; height: 200px; width: 200px"></div>
+			<p class="summary">{{project.summary}}</p>
 			<a href="{{ project.url }}" title="{{ project.title }}">{{ project.title }}</a>
 		</li> 	
 	{% endfor %}
