@@ -3,7 +3,7 @@ layout: project
 title: Arduino Pomodoro Timer
 featured_image: "/photos/Tomato.png"
 source_code: "https://github.com/CameronTrumpy/PomBox"
-summary: "A productivity timer designed to aid in studying and focusing on one's tasks, following a well-researched productivity method"
+summary: A productivity timer designed to aid in studying and focusing on one's tasks, following a well-researched productivity method
 ---
 Let's face it. Between social media, games, videos, news, etc... our phones are a huge barricade in the way of us focusing on getting work done. This is something I struggled with, and I attempted multiple approaches to curbing my phone use while studying. In the end, I decided I needed a physical aid that would hold me in check and help me study.
  
