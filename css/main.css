@@ -4,7 +4,7 @@ html{
 body {
  margin: 60px auto;
  width: 70%;
- background-image: "photos/Background/tile.png";
+ background-image: url("/photos/Background/tile.png");
  background-repeat: repeat;
  animation: ripple 100s linear infinite;
 
