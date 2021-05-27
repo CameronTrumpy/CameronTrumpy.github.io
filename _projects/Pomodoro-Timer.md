@@ -1,7 +1,7 @@
 ---
 layout: project
 title: Arduino Pomodoro Timer
-featured_image: "/photos/Tomato.png"
+featured_image: "/photos/Pomodoro/Tomato.png"
 source_code: "https://github.com/CameronTrumpy/PomBox"
 summary: A productivity timer designed to aid in studying and focusing on one's tasks, following a well-researched productivity method
 ---

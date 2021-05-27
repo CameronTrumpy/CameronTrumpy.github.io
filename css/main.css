@@ -4,7 +4,7 @@ html{
 body {
  margin: 60px auto;
  width: 70%;
- background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/gridme.png");
+ background-image: "photos/Background/tile.png";
  background-repeat: repeat;
  animation: ripple 100s linear infinite;
 

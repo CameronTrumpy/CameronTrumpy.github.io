@@ -1,6 +1,6 @@
 ---
 layout: project
-title: Raspi Controlled LED Desk Lights
+title: Raspi LED Desk Lights
 featured_image: "/photos/LED-Desklights.png"
 additional_link: "https://www.instructables.com/WebsiteWiFi-Controlled-LED-Strip-With-Raspberry-Pi/"
 summary: "Raspberry Pi controlled LED lights for desk lighting."

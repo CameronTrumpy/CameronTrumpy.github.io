@@ -1,8 +1,8 @@
 ---
 layout: project
 title: Boggle Solver
-featured_image: "/photos/Boggle_Solver/Logo.png"
-image_gallery: [/photos//Boggle_Solver/image1.png, /photos//Boggle_Solver/animated.gif]
+featured_image: "/photos/BoggleSolver/Logo.png"
+image_gallery: [/photos//BoggleSolver/image1.png, /photos//BoggleSolver/animated.gif]
 source_code: "https://github.com/CameronTrumpy/BoggleSolver"
 summary: "Java based boggle solver for use with multiplayer android game."
 ---
