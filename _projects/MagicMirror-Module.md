@@ -1,7 +1,7 @@
 ---
 layout: project
 title: Smart "Magic" Mirror
-featured_image: url("/photos/Background/tile.png");
+featured_image: "/photos/MagicMirror/MM2.png"
 image_gallery: [image1.png, image2.png]
 source_code: "https://github.com/CameronTrumpy/MMM-COVID"
 summary: "Raspberry Pi controlled Smart Mirror with custom plugins."
