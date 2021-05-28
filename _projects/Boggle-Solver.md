@@ -8,7 +8,7 @@ summary: "Java based solver for use with multiplayer Boggle mobile game."
 ---
 In 2019, I wrote a Java program which works alongside an emulated android device. This program quickly and accurately searches all word combinations possible given a match's auto generated boggle board, and then enters all words in at much faster than human speeds. It outperformed human opponents by 1000% and was able to easily win in game tournaments against high skill opponents. I didn't want to ruin anyone else's experience in playing the game, so I only tested it against human players who I knew.
 <figure class="video_container">
-  <video controls="true" allowfullscreen="true">
+  <video controls="true" allowfullscreen="true" style="width:50%">
     <source src="/photos/BoggleSolver/Demo.mp4" type="video/mp4">
   </video>
 </figure>
