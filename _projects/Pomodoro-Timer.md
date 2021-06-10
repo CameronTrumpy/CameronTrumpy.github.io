@@ -11,8 +11,12 @@ The *[pomodoro technique](https://en.wikipedia.org/wiki/Pomodoro_Technique)*, is
 
 To combine this reasearched technique with my desire for a physical study aid, I designed a physical pomodoro timer which also monitors if you are distracted by your phone.
 
+<img src="/photos/Pomodoro/front.jpg" alt="Front View" width="500"/>
+
 The timer features ESP-8266 arduino microcontroller along with a 16x2 character LCD display and a few buttons for user interaction. The timer displays your work and break time for you, and beeps to notify completion of a pomodoro cycle. It also monitors if you have picked up your phone during work time, and beeps to notify the user that they are distracted.
  
+<img src="/photos/Pomodoro/top.jpg" alt="Wiring View" width="500"/>
+
 I designed the housing in Fusion360, and programmed the project in Arduino.
  
 Overall, it ended up being an effective application of a well-researched productivity method, and helped me study for the SAT and my schoolwork with less distractions. My GitHub Repository includes a README which explains how to make your own PomBox.
