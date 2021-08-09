@@ -103,6 +103,33 @@ footer {
  font-size: .8em;
 }
 
+ul.skills{
+text-align:center;
+}
+
+
+ul.skills li{
+    list-style: square;
+    text-align: left;
+    padding : 0px 10px 0px;
+    list-style: inside;
+   
+}
+
+ul.skills ul{
+     width: 225px;
+     min-height: 150px;
+     display: inline-grid;
+     vertical-align: top;
+     text-align:center;    
+ border: 1px solid #000;
+ border-radius: 10px;
+ margin: 10px 10px 10px;
+ padding: 0px 0px 10px;
+
+}
+
+
 ul.posts { 
  margin: 20px auto 40px; 
  font-size: 1.5em;
