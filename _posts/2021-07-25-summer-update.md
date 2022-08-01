@@ -7,4 +7,4 @@ Between work, robotics, marching band, college planning, and personal projects, 
 
 I've been making good progresson my Tensorflow Object detection for FRC and I'm approaching performance levels high enough to be practical in-match. I've reached a processing rate of about 20 frames per second, which means it becomes practical for use in match, on-robot. Preparations for offseason robotics competitions is our main focus at robotics right now, with major improvements to our autonomous controls being done. I am hoping that I can work on integrating my vision system onto the robot by competition season this upcoming year.
 
-I have been learning PCB design using Autodesk Eagle, and I have a bunch of project ideas that in the future this would be super helpful for! Most of the stuff I've worked on right now is very simple, but it has been a great learning experience.s
+I have been learning PCB design using Autodesk Eagle, and I have a bunch of project ideas that in the future this would be super helpful for! Most of the stuff I've worked on right now is very simple, but it has been a great learning experience.
