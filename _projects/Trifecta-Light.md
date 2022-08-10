@@ -1,7 +1,7 @@
 ---
 layout: project
 title: Trifecta Lighting
-featured_image: "/photos/Trifecta/TrifectaLogo.png"
+featured_image: "/photos/Trifecta/TrifectaLogo.jpg"
 source_code: "https://github.com/CameronTrumpy/"
 summary: "Custom Light Fixture Project"
 ---
