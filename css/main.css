@@ -1,12 +1,16 @@
+@import "showcase.css";
+@import "projectpage.css";
+
 html{
   animation: fall 1s linear;
 }
 body {
  margin: 60px auto;
  width: 70%;
- background-image: url("/photos/Background/tile.png");
+ background-image: url("/photos/Background/darktile.png");
  background-repeat: repeat;
  animation: ripple 100s linear infinite;
+ color:#f9ca00;
 
 }
 @keyframes ripple{
@@ -31,9 +35,9 @@ body {
 0%{
  opacity: 1;
 }
-25%{
- opacity: .6;
-}
+/* 50%{
+ opacity: .775;
+} */
 100%{
  opacity: .1;
 }
@@ -51,7 +55,15 @@ body {
 }
 }
 
-
+@keyframes grow {
+    from {
+      transform: scale(0);
+    }
+    to {
+      transform: scale(0.9);
+    }
+  }
+  
 
 @keyframes expand{
   0%{
@@ -77,13 +89,13 @@ nav ul li, footer ul li {
 
 nav ul a:hover, footer ul a:hover {
  text-decoration: underline;
- background-color: #9fb5ec;
+ background-color: #00237c;
  border-radius: 5px;
 }
 a {
  padding: 5px 5px;
  text-decoration: none;
- color: #636363;
+ color: #f9ca00;
 }
 a:hover {
  text-decoration: underline;
@@ -96,7 +108,8 @@ h1 {
 p {
  font-size: 1.5em;
  line-height: 1.4em;
- color: #333;
+ /* color: #333; //light mode*/
+ color: #d8d8d8;
 }
 footer {
  border-top: 1px solid #545454;
@@ -138,55 +151,3 @@ ul.posts {
 ul.posts li {
  list-style: none;
 }
-ul.projects {
-text-align: center;
-}
-ul.projects li {
- width: 225px;
-     min-height: 250px;
-     display: inline-grid;
-     vertical-align: top;
-     text-align:center;    
- border: 1px solid #000;
- border-radius: 10px;
- margin: 10px 10px 10px;
- padding: 10px 0px 0px;
-
- }
-
-.imgContainer{
- width: 200px;
- height: 200px;
- opacity: 1;
- 
- width: 200px;
-     min-height: 200px;
-     display: inline-grid;
-     vertical-align: top;
-     text-align:center;    
- border-radius: 10px;
- margin: 10px 10px 10px;
- z-index:1;
-}
-
-.summary{
-    display:none;
-    z-index:-1;
-}
-
-.imgContainer:hover{
- animation: fade-out .6s;
- opacity:.1;
-}
-.imgContainer:hover + .summary{
- display:inherit;
- position: absolute;
- width:inherit;
- font-size:inherit;
-}
-
-
-ul.projects li:hover img{
- animation: fade-out .6s;
- opacity:.1;
- }

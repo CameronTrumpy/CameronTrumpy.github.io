@@ -3,10 +3,15 @@ markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
 
 collections:
-  projects:
+  hs_projects:
     output: true
     permalink: /showcase/:title
-
+  spark_projects:
+    output: true
+    permalink: /spark_showcase/:title
+  college_projects:
+    output: true
+    permalink: /college_showcase/:title
 
 defaults:
   -

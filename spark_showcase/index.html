@@ -1,0 +1,42 @@
+---
+layout: default
+title: SPARK Electric Racing
+---
+<!-- <h1>{{ page.title }}</h1> -->
+<a href="https://spark.engin.umich.edu">
+    <img class="headerImage" src="/photos/SPARK/SPARK-header.png">
+</a>
+
+<hr>
+<h2>My Involvement</h2>
+<p>At the beginning of my freshman year of college, I joined SPARK Electric Racing, a student-led team where we design, build, and race electric motorcycles.</p> <p> Currently I am serving as SPARK's Electrical Director, where I oversee the development of all our electrical systems on the bike and collaborate with the rest of our admin team to ensure the electrical design is well-integrated with our mechanical and software systems.</p>
+
+<h3>Freshman Year</h3>
+<p>
+    I began as a member of our low-voltage team, where we worked on determining requirements for our sensor system and sourced parts.  
+</p>
+
+<h3>Sophomore Year</h3>
+<p>
+    During my sophomore year, I was selected to co-lead design of our custom Battery Managment System (BMS). I focused primarily on managing our low-level software development for the project, but was involved in our hardware design as well. 
+    At the end of sophomore year, I ran for and was elected to our Electrical Director position.
+</p>
+
+<h3>Junior Year</h3>
+<p>
+    Currently I am serving as SPARK's Electrical Director, where I oversee the development of all our electrical systems on the bike and collaborate with the rest of our admin team to ensure the electrical design is well-integrated with our mechanical and software systems.
+</p>
+
+<hr>
+<h2>Project Contributions</h2>
+<ul class="projects">
+    {% for project in site.spark_projects %}
+    <li class="projectCard">
+        <div class="imgContainer"
+            style="background-image: url('{{project.featured_image}}'); background-size: 200px 200px; height: 200px; width: 200px">
+            <a href="{{ project.url }}" title="{{ project.title }}"></a></div>
+        <p class="summary">{{project.summary}}</p>
+        <a href="{{ project.url }}" title="{{ project.title }}">{{ project.title }}</a>
+    </li>
+    {% endfor %}
+</ul>
